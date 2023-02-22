@@ -20,7 +20,7 @@ const Landing = () => {
 				</video>
 				<div className="overlay bg-[#00000016]"></div>
        
-				<div className="content w-full h-full m-auto p-4 absolute top-0 flex flex-col justify-center items-center">
+				<div className="content flex flex-col justify-center items-center">
         <h1 className="text-center1 land-header">TRAVELER MATE</h1>
 
         					<Link to="search" smooth={true} duration={500}>
