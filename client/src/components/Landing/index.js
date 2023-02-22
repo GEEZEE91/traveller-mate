@@ -20,7 +20,7 @@ const Landing = () => {
 				
 				<div className="overlay bg-[#00000016]"></div>
        
-				<div className="content flex flex-col justify-center items-center">
+				 
         <h1 className="text-center1 land-header">TRAVELER MATE</h1>
 
         					<Link to="search" smooth={true} duration={500}>
