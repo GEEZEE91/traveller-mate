@@ -15,9 +15,9 @@ const Landing = () => {
 					muted
 					id="video"
 					className="w-full object-cover z-[8]"
-				>
+				
 					<source src={Video} type="video/mp4" />
-				</video>
+				
 				<div className="overlay bg-[#00000016]"></div>
        
 				<div className="content flex flex-col justify-center items-center">
@@ -27,7 +27,10 @@ const Landing = () => {
           <div className="lowBtn">
             <Login /> <strong>- OR -</strong> <Signup />
           </div>					</Link>
-				</div>
+		
+		</div>
+
+</video>
         </div>
      
     </>
